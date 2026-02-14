@@ -48,3 +48,5 @@ Le script recharge l'image qui vient d'être créée dans le dossier image_tatou
 Si le message extrait est identique au message initial, le système confirme que le tatouage est conforme et robuste.
 
 Si le message est corrompu ou illisible, le script affiche un avertissement. Dans ce cas, il est conseillé d'augmenter la valeur du paramètre alpha dans le code pour renforcer l'empreinte numérique.
+## API :
+Le module est conçu pour être utilisé comme une bibliothèque indépendante. L'utilisateur peut l'intégrer directement dans un serveur web ou un outil d'automatisation en important la classe Watermarker. Cette approche permet d'automatiser la protection des images dès leur importation (upload) et de simplifier leur vérification ultérieure sans avoir à manipuler la logique interne du traitement de signal. Un exemple d'implémentation est fourni en commentaire dans le fichier main.py.
