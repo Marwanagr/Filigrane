@@ -20,6 +20,19 @@ Le script principal. Il sert d'interface pour orchestrer l'encodage du message e
 Le fichier de configuration des dépendances. Il liste les bibliothèques nécessaires au fonctionnement du projet (OpenCV, NumPy, Scipy, ReedSolo).
 
 ### Comment lancer le projet
+#### Création de l'environnement virtuel
+Ouvrez un terminal dans le dossier du projet et créez un environnement isolé :
+```bash
+python -m venv venv
+```    
+
+        
+#### Activation de l'environnement
+##### Windows :
+    .\venv\Scripts\activate
+
+##### Mac / Linux :
+    source venv/bin/activat
 #### Installation des dépendances
 Avant de commencer, vous devez installer les bibliothèques Python requises en lançant la commande suivante dans votre terminal :
 
